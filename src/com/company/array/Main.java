@@ -1,9 +1,9 @@
-package com.company;
+package com.company.array;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class Main2 {
+public class Main {
     public static void main(String[] args) {
         Random random = new Random();
         int count = 20;
