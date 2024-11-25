@@ -1,0 +1,127 @@
+insert into nc_objects (object_id, parent_id, object_type_id, object_class_id, project_id, name, order_number, version)
+values
+(
+  9163623133413688647, 9134256259513156680, 2091641841013994134, 2091353054013993289, 9134256259513156679, '6913171938,B2R,ACTIVE'||
+  ' 15252,E2E 633,2022-05-23 14:23', 0, 8
+);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (7030151465013152898, 9149000490413788409, 9163623133413688647, 1, 1, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9132200668013878647, 9154203800013167041, 9163623133413688647, 1, 1, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9134289476813163360, 9163623132313686956, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9134601279613203712, 9156209092713394988, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9134601663813204193, 9153062510013042485, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9135197486313260538, 9154211069613171793, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9135682654013489735, 9163623133113686956, 9163623133413688647, 1, 1, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9136493728513108150, 9155943231313304164, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9136493728513108160, 110, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9140769868913760369, 9163623130613686846, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9154204010913167854, 9154219538413175469, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9154340134713218809, 9154446238913183039, 9163623133413688647, 1, 0, 0);
+insert into nc_references (attr_id, reference, object_id, show_order, priority, attr_access_type)
+values (9162367321113747971, 9154394142013178781, 9163623133413688647, 1, 0, 0);
+insert into nc_params (attr_id, object_id, "VALUE", show_order, priority)
+values (61, 9163623133413688647, 'at_e2e_user', 1, 1);
+insert into nc_params (attr_id, object_id, show_order, date_value, priority)
+values (62, 9163623133413688647, 1, timestamp '2022-04-23 14:29:14', 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order, priority)
+values (63, 9163623133413688647, 'at_e2e_user', 1, 1);
+insert into nc_params (attr_id, object_id, show_order, date_value, priority)
+values (64, 9163623133413688647, 1, timestamp '2022-04-23 14:29:24', 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order, priority)
+values (2091641841013994123, 9163623133413688647, '100000000026', 1, 1);
+insert into nc_params (attr_id, object_id, show_order, date_value)
+values (2091665231013995658, 9163623133413688647, 1, timestamp '2022-04-23 15:16:42');
+insert into nc_params (attr_id, object_id, "VALUE", show_order, priority)
+values (6072556040013963188, 9163623133413688647, '1', 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (7042837826013175654, 9163623133413688647, 7042837826013175653, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9130013315813242828, 9163623133413688647, 9130013304913215574, 1, 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9132121613813866299, 9163623133413688647, 'ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "СБЕРБАНК РОССИИ"', 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9132121613813866318, 9163623133413688647, ' (7)4174269649', 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9132121613813866323, 9163623133413688647, 'customer@test.ru', 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9132122773513866512, 9163623133413688647, '100000000026', 1);
+insert into nc_params (attr_id, object_id, show_order)
+values (9135507050113499751, 9163623133413688647, 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9135749623013634117, 9163623133413688647, 'BRKTF', 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9135888560413426581, 9163623133413688647, 9135888560413426589, 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (9136009849713741120, 9163623133413688647, 7777002, 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order, priority)
+values (9148328342013670726, 9163623133413688647, '6913171938', 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9148335740013457868, 9163623133413688647, 7777001, 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9148758650213625447, 9163623133413688647, 7777001, 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9148758650213625472, 9163623133413688647, 7777001, 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (9148862036513745373, 9163623133413688647, 7777002, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (9149113293313730990, 9163623133413688647, 7777002, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (9149310521413632003, 9163623133413688647, 7777001, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9150013700013647243, 9163623133413688647, 7777002, 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9150020198913649276, 9163623133413688647, 7777001, 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (9150980288613993054, 9163623133413688647, 7777001, 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9152455932013395741, 9163623133413688647, 'aaae355e-2e28-41b0-bf29-da32e36a61c5', 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (9152811371913656962, 9163623133413688647, 7777002, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9154211012213180239, 9163623133413688647, 7777002, 1, 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9154340419713221073, 9163623133413688647, '1027700132195', 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9154340518713221693, 9163623133413688647, '524534957', 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9154365524413231440, 9163623133413688647, 'ГРЕФ ГЕРМАН ОСКАРОВИЧ', 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order)
+values (9155483583313238061, 9163623133413688647, 7777002, 1);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9156191723113246410, 9163623133413688647, 'e2496118-ad5b-4a5c-b8dc-9636e5a83211', 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9157333628613197093, 9163623133413688647, 7777002, 1, 1);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9160441694413542247, 9163623133413688647, 9160441691513542247, 1, 1);
+insert into nc_params (attr_id, object_id, data, show_order)
+values
+(
+  9160442366313542902, 9163623133413688647, to_clob(
+    '<div class="nc-user-notification nc-user-notification-error nc-user-notification-tray" style="width:600px"><div class="user'||
+    '-message-body">Внимание! При изменении менеджера на Карточке Клиента, автоматически будет изменен менеджер на договоре.</div><'||
+    '/div>'
+  ), 1
+);
+insert into nc_params (attr_id, object_id, list_value_id, show_order, priority)
+values (9160500615213564932, 9163623133413688647, 9160500629713565124, 1, 1);
+insert into nc_params (attr_id, object_id, data, show_order, priority)
+values
+(
+  9160500647113565372, 9163623133413688647, to_clob(
+    '<div class="nc-user-notification nc-user-notification-error nc-user-notification-tray" style="width:600px">Внимание! При'||
+    ' изменении специалиста на Карточке клиента, автоматически будет изменен специалист на договоре.</div>'
+  ), 1, 1
+);
+insert into nc_params (attr_id, object_id, "VALUE", show_order)
+values (9163403515613091230, 9163623133413688647, 'Россия, Пермский край, Пермь г, Ленина, 35', 1);
