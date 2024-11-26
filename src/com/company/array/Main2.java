@@ -36,5 +36,5 @@ public class Main2 {
         }
         System.out.println(Arrays.toString(arr3));
         System.out.printf("Min value in arr3: %d with index: %d", arr3[minIndex], minIndex);
-     }
+    }
 }
