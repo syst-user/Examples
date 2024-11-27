@@ -1,6 +1,6 @@
 package com.company.lambdaExpressions;
 
-public class Maip3 {
+public class Main3 {
 
     public static void main(String[] args) {
         Wrapper<String> wrapperStr = (s -> "[" + s + "]");
