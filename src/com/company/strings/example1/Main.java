@@ -1,4 +1,4 @@
-package com.company.strings;
+package com.company.strings.example1;
 
 import java.util.ArrayList;
 import java.util.List;
