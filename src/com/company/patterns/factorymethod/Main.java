@@ -1,5 +1,7 @@
 package com.company.patterns.factorymethod;
 
+import com.company.patterns.factorymethod.notifications.Notification;
+
 import java.util.Scanner;
 
 public class Main {

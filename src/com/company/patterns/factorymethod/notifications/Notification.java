@@ -1,4 +1,4 @@
-package com.company.patterns.factorymethod;
+package com.company.patterns.factorymethod.notifications;
 
 public interface Notification {
 

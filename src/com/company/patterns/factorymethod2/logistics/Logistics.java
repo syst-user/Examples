@@ -1,4 +1,6 @@
-package com.company.patterns.factorymethod2;
+package com.company.patterns.factorymethod2.logistics;
+
+import com.company.patterns.factorymethod2.transport.Transport;
 
 public abstract class Logistics {
 

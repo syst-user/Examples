@@ -1,5 +1,9 @@
 package com.company.patterns.factorymethod2;
 
+import com.company.patterns.factorymethod2.logistics.Logistics;
+import com.company.patterns.factorymethod2.logistics.RoadLogistics;
+import com.company.patterns.factorymethod2.logistics.SeaLogistics;
+
 import java.util.Scanner;
 
 public class Main {
