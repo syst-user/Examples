@@ -1,8 +1,8 @@
 package com.company.patterns.proxy;
 
-public class RealExpensiveObject implements ExpensiveObject {
+public class RealExpensiveObject implements ExpensiveObject { //Исходный объект с "дорогой" инициализацией
 
-    public RealExpensiveObject() {
+    public RealExpensiveObject() { //Конструктор с сложной логикой
         System.out.println("Creating RealExpensiveObject...");
         try {
             Thread.sleep(2000);

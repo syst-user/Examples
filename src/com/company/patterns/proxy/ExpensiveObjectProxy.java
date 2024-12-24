@@ -1,6 +1,6 @@
 package com.company.patterns.proxy;
 
-public class ExpensiveObjectProxy implements ExpensiveObject {
+public class ExpensiveObjectProxy implements ExpensiveObject { //Proxy объект для ленивой загрузки
 
     private ExpensiveObject realObject;
 
