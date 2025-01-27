@@ -1,5 +1,8 @@
 package com.company.other.stack;
 
+/**
+ * Класс для работы с стеком на основе связанного списка
+ */
 public class LinkedStack<T> {
 
     private Node<T> head; // Вершина стека
@@ -10,6 +13,10 @@ public class LinkedStack<T> {
         this.size = 0;
     }
 
+    /**
+     * Метод добавляет элемент на вершину стека
+     * @param value - Значение которое нужно поместить в стек
+     */
     public void push(T value) { // Добавление элемента на вершину стека
         Node<T> newNode = new Node<>(value);
         newNode.next = head;
@@ -17,6 +24,10 @@ public class LinkedStack<T> {
         size++;
     }
 
+    /**
+     * Метод удаляет элемент с вершины стека
+     * @return Удаляемое значение
+     */
     public T pop() { // Удаление элемента с вершины стека
         if (head == null) {
             throw new IllegalStateException("Stack is empty");
@@ -28,10 +39,17 @@ public class LinkedStack<T> {
         }
     }
 
+    /**
+     * Метод для получения размера стека
+     * @return Количество элементов в стеке
+     */
     public int getSize() {
         return size;
     }
 
+    /**
+     * Метод для печати содержимого в стеке
+     */
     public void print() {
         Node<T> current = head;
         while (current != null) {
