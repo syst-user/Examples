@@ -1,5 +1,7 @@
 package com.company.streamAPI.example2;
 
+import java.util.Objects;
+
 public class Person {
     private String name;
     private Gender gender;
@@ -33,5 +35,17 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return age == person.age && Objects.equals(name, person.name) && gender == person.gender;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, gender, age);
     }
 }

@@ -9,6 +9,7 @@ public class Utils {
         List<Person> personList = new ArrayList<>();
 
         personList.add(new Person("Ivan", Gender.MAIL, 35));
+        personList.add(new Person("Ivan", Gender.MAIL, 30));
         personList.add(new Person("Sergei", Gender.MAIL, 30));
         personList.add(new Person("Vasilii", Gender.MAIL, 32));
         personList.add(new Person("Vlad", Gender.MAIL, 25));
